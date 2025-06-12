@@ -58,21 +58,20 @@
                     0 0 0 0 0 0 0 0 <br/> <br/>
                     </p>
                     <img src="https://web.archive.org/web/20090801025153/http://www.geocities.com/heartland/forest/1078/gifs/flame.gif"> <br/>
-                    Each player take turns placing a pawn until 4 cats and 4 mice are placed. The cats take the 1st turn. <br/>
+                    Each player take turns placing a pawn until 16 cats and 16 mice are placed. The cats take the 1st turn. <br/>
                     When each pawn's placed, the game phase begins: <br/>
                     1. Each player takes turns. <br/>
                     2. They can move one pawn vertically/horizontally by 1 cell each turn. <br/>
                     3. If they stand on another pawn, that pawn will be gone, so "eaten". <br/>
                     4. Or, you can place a block. <br/>
                     5. A soft-locked pawn dies (gets eaten). <br/>
-                    6. The first player to have 1 pawn left loses. <br/> <br/>
-                    There are 2 blocks, and 10 blocks can be placed on the board: <br/>
+                    6. The first player to have less than 4 pawns left loses. <br/> <br/>
+                    There are 2 blocks, and maximum 30 blocks can be placed on the board: <br/>
                     1. Normal Block <br/>
                     <img src="https://web.archive.org/web/20091027003159/http://mx.geocities.com/alvaro662000/gif/ZeroCool.gif"> <br/>
                     A block that can't be moved or destroyed. <br/>
                     2. Movable Block <br/>
-                    A normal block that can be moved using the "Soukoban"* physics. <br/>
-                    If colliding to a pawn when moved, the pawn dies. (gets eaten by block) <br/> <br/>
+                    A normal block that can be moved using the "Soukoban"* physics.If colliding to a pawn when moved, the pawn dies. (gets eaten by block) <br/>
                     *Soukoban physics are this: when you move 1 cell but a box is at your location, the box moves 1 cell in your direction. <br/> <br/>
                     There are "classes", where when a pawn's placed, you choose a class for it. <br/>
                     Note: Every "n turns" mention in the class description are mentioning both your and opponent's turns. <br/>
@@ -84,63 +83,46 @@
                     2. And S.F.s can still move by 1 cell in the same turn. <br/>
                     <img src="https://web.archive.org/web/20091026234123/http://us.geocities.com/furqan2002/islameducationfunpoetryhoroscope.gif"> <br/>
                     Class #3: Archer <br/>
-                    These can shoot arrows vertically, horizontally or diagonally which travel 3 cells per move. <br/>
-                    (When an arrow is fired, it'll move 5 cells automatically.) Also, they don't eat the pawns on the 1st and the 2nd cells they touch. <br/>
+                    These can shoot arrows vertically, horizontally or diagonally which travel 3 cells per move. (When an arrow is fired, it'll move 5 cells automatically.) Also, they don't eat the pawns on the 1st and the 2nd cells they touch. <br/>
                     Class #4: Miner <br/>
                     These can move blocks at any direction (including diagonal) if it's next to it or has 1 cell between it. <br/>
                     Class #5: Digger <br/>
-                    These can go underground. Which means they are invincible for 6 turns, but it has a 12 turn cooldown to use this ability. <br/>
-                    The invincibility can be deactivated in the digger's turn. Else, it will deactivate automatically after 6 turns. <br/> <br/>
+                    These can go underground. Which means they are invincible for 6 turns, but it has a 12 turn cooldown to use this ability. The invincibility can be deactivated in the digger's turn. Else, it will deactivate automatically after 6 turns. <br/>
                     <h2> CVM v2.5 </h2> <br/> <br/>
                     This adds new classes! <br/>
                     Class #6: Medic <br/>
-                    These can store another pawn inside it if next to for 1 turn, and has a 3 turn cooldown. <br/>
-                    After that, it can release it anywhere next to it, but not diagonally. <br/>
+                    These can store another pawn inside it if next to for 1 turn, and has a 3 turn cooldown. After that, it can release it anywhere next to it, but not diagonally. <br/>
                     Class #7: Horse Rider <br/>
-                    These can travel 1 or 2 cell per turn. <br/>
+                    These can travel 1 or 2 cells per turn. <br/>
                     Class #8: Power Rider <br/>
-                    When these move, flip a coin. If tails, it moves 1 cells; else, flip a coin. If tails, it moves 2 cells; else, flip a <br/>
-                    coin. If tails, it moves 3 cells; else, flip a coin. If tails, it moves 4 cells; else, flip a coin. If tails, it moves 5 <br/>
-                    cells; else, flip a coin. If tails, it moves 6 cells; else, it moves 7 cells. <br/>
+                    When these move, flip a coin. If tails, it moves 1 cells; else, flip a coin. If tails, it moves 2 cells; else, flip a coin. If tails, it moves 3 cells; else, flip a coin. If tails, it moves 4 cells; else, flip a coin. If tails, it moves 5 cells; else, flip a coin. If tails, it moves 6 cells; else, flip a coin and so on... <br/>
                     Class #9: Power Fighter <br/>
-                    These can attack with a 1 cell distance just like sword fighters. But they only do this when a coin flipped is heads. <br/>
-                    While sword fighters has a 100% chance of attacking from a 1 cell distance, these have a special ability. <br/>
-                    When they get eaten, flip a coin. If heads, they survive it. <br/>
+                    These can attack with a 1 cell distance just like sword fighters. But they only do this when a coin flipped is heads. While sword fighters has a 100% chance of attacking from a 1 cell distance, these have a special ability. When they get eaten, flip a coin. If heads, they survive it. <br/>
                     Class #10: Cheeser <br/>
-                    Both cats and mice like cheese. So, cheesers can place a 3rd block: cheese. When placed, all pawns (except cheesers) <br/>
-                    move towards it according to their capabilities*. They move closer to cheese until it's eaten by a pawn. Also, cheese <br/>
-                    has a 3 turn cooldown. <br/>
+                    Both cats and mice like cheese. So, cheesers can place a 3rd block: cheese. When placed, all pawns (except cheesers) move towards it according to their capabilities*. They move closer to cheese until it's eaten by a pawn. Also, cheese has a 3 turn cooldown. <br/>
                     <img src="https://i.gifer.com/SDU7.gif"> <br/>
                     Class #11: Elder <br/>
-                    These can't move or talk. But they can break the fourth wall by asking artificial intelligence or calling a CVM master <br/>
-                    to ask for a good move to do. <br/>
+                    These can't move or talk. But they can break the fourth wall by asking artificial intelligence or calling a CVM master to ask for a good move to do. <br/>
                     Class #12-13: Fisher and Crumber <br/>
-                    These are cheesers, except they summon fish (or crumbs if a crumber) instead of cheese. Fish lure cats, and crumbs lure <br/>
-                    mice. <br/> <br/>
-                    *Capabilities = if they can move diagonally and moving that way is better, they move that way. Else, they move vertically/horizontally. <br/> <br/>
+                    These are cheesers, except they summon fish (or crumbs if a crumber) instead of cheese. Fish lure cats, and crumbs lure mice. <br/>
+                    *Capabilities = if they can move diagonally and moving that way is better, they move that way. Else, they move vertically/horizontally. <br/>
                     EVEN MORE PAWN TYPES!!! <br/> <br/>
                     #14: Springer <br/>
-                    These can use their springs to jump. When they jump,
-                    These can use their springs to jump. When they jump, they stay in the air for 10 turns (can eat and move in the <br/>
-                    meantime) but die of fall damage after those 10 turns. <br/>
+                    These can use their springs to jump. When they jump, These can use their springs to jump. When they jump, they stay in the air for 10 turns (can eat and move in the meantime) but die of fall damage after those 10 turns. <br/>
                     Class #15: Guster <br/>
                     These can move like a power rider (they even can stop whenever they want!) but this has a 2 turn cooldown. <br/>
-                    Class #16: Alchemist <br/>
-                    These are another type of medic that use alchemy, which make that when an alchemist exist in a board and when a pawn is <br/>
-                    eaten, they have a 25% chance of not dying. (flip a coin 2 times, if both heads, you survive.) If 2 alchemists exist, <br/>
-                    the chance is now (25 + ((100 - 25 x 1) / 4 x 1))%. And if 3, then (25 + ((100 - 25 x 1) / 4 x 1) + ((100 - 25 x 3) / 4 x 1))% and so on. <br/>
+                    Class #16: Witch <br/>
+                    These are another type of medic that use magic, which make that when an alchemist exist in a board and when a pawn is aten, they have a 25% chance of not dying. (flip a coin 2 times, if both heads, you survive.) If 2 alchemists exist, the chance is now (25 + ((100 - 25 x 1) / 4 x 1))%. And if 3, then (25 + ((100 - 25 x 1) / 4 x 1) + ((100 - 25 x 3) / 4 x 1))% and so on. <br/>
                     Class #17: Bomber <br/>
-                    These can use bombs to eat every pawn that are next to it or has a 1 block distance within it, including pawns of their <br/>
-                    colour. This has a 10 turn cooldown. <br/>
+                    These can use bombs to eat every pawn that are next to it or has a 1 block distance within it, including pawns of their colour. This has a 10 turn cooldown. <br/>
                     Class #18: Power Bomber / Kamikazer <br/>
-                    These are bombers, but their blast radius is 3 instead of bombers' usual 2 (so they can eat pawns with 2 block <br/>
-                    distance). But the blast of that is so big that they die too, making a kamikaze. <br/>
+                    These are bombers, but their blast radius is 3 instead of bombers' usual 2 (so they can eat pawns with 2 block distance). But the blast of that is so big that they die too, making a kamikaze. <br/>
                     Class #19: Allied Telepathic <br/>
                     These can move normally, but they can additionally make any other same colour pawn move (according to their classes!) <br/>
                     Class #20: Telepathic Infiltrator <br/>
-                    These can move or make other colour pawns move (according to their classes, duh). If you decide to move another colour <br/>
-                    pawn move and eat a pawn from your colour, you can make it eat your colour pawn, or it eat itself (if bumped to a pawn <br/>
-                    from your colour, of course. Else, it would be over-powered.) <br/>
+                    These can move or make other colour pawns move (according to their classes, duh). If you decide to move another colour pawn move and eat a pawn from your colour, you can make it eat your colour pawn, or it eat itself (if bumped to a pawn from your colour, of course. Else, it would be over-powered.) <br/>
+                    Class #21: Mega-Guster <br/>
+                    These can move all of the pawns on the board horizontally or vertically by 1 square in a single turn (but has a 2 turn cooldown) <br/>
                     ASCII ART FOR CVM2 <br/> <br/>
                     The basic ASCII art with a board full or peasant cats and mice is like this: <br/> <br/>
                     <img src="https://web.archive.org/web/20090831014552/http://geocities.com/cafiscool/usflag1.gif">
@@ -176,7 +158,7 @@
                     A = 10 <br/>
                     B = 11 <br/>
                     C = 12 <br/>
-                    D = 13 <br/> <br/>
+                    D = 13 and so on... <br/> <br/>
                     </p>
                     <img src="https://i.gifer.com/origin/49/4985cb78f79df721e3cc222168c06c98_w200.gif"> <br/>
                     Then, here's normal and "soukoban" blocks: <br/> <br/>
@@ -195,9 +177,10 @@
                     </p>
                     Note: fish is "o<" and crumb is "o". Which is a small fish. My plan was doing "<><" but there wasn't enough space. <br/>
                     The empty squares are actually "⬜" but people couldn't type it easily. <br/>
-                    <img src="https://web.archive.org/web/20091021201536/http://www.geocities.com/jettjackson3000/llcooljplanet.gif">
+                    <img src="https://web.archive.org/web/20091021201536/http://www.geocities.com/jettjackson3000/llcooljplanet.gif"> <br/>
+                <img src="https://web.archive.org/web/20090829235001/http://geocities.com/SiliconValley/Mouse/7234/billboard/bimage/468x60clickads.gif"> <br/>
+                <img src="https://24.media.tumblr.com/227c170e46eb1933388ae2c457d744c1/tumblr_mfv2a2fYzg1qksvu3o1_400.gif">
                 </p>
-                <img src="https://web.archive.org/web/20090829235001/http://geocities.com/SiliconValley/Mouse/7234/billboard/bimage/468x60clickads.gif">
             </header>
         </div>
     </body>
